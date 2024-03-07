@@ -36,13 +36,18 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-weight: 800;
-    font-size: 1.5rem;
-    padding-left: 1rem;
+    font-size: 2.1rem;
+}
+
+.logo img {
+    padding-right: 5px;
 }
 
 .nav-menu {
-    padding-left: 13rem;
+    padding-left: 8rem;
 }
 
 .nav-menu ul {
@@ -67,7 +72,6 @@ header {
 /* Banner */
 .banner img {
     width: 100%;
-    height: 500px;
     position: relative;
 }
 
@@ -103,11 +107,71 @@ header {
     border-top: 2px solid #000;
 }
 
+/* New */
 .list-product {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     justify-content: space-between;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    background-color: #F4F5F7;
+}
+
+.info-product {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.btn-add-to-cart {
+    background-color: #fff;
+    color: #B88E2F;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+.additional-options {
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.additional-options a {
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 .img-product img {
@@ -116,7 +180,6 @@ header {
 }
 
 .name-product {
-    padding-top: 12px;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -143,6 +206,27 @@ header {
     font-size: 1.2rem;
     text-decoration: line-through;
     opacity: 0.6;
+}
+
+.tag {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(233, 113, 113);
+    width: 40px;
+    height: 40px;
+    top: 5%;
+    right: 10%;
+}
+
+.bg-green {
+    background-color: rgb(46, 193, 172);
+}
+
+.tag p{
+    color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 /* Shop */
@@ -215,7 +299,7 @@ header {
     display: flex;
 }
 
-.feature i{
+.feature i {
     font-size: 3rem;
 }
 
@@ -233,3 +317,60 @@ header {
     font-size: 1rem;
     opacity: 0.6;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0 5rem 0;
+}
+
+.logo-footer {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.address p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.title-footer {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-bottom: 3rem;
+}
+
+.menu-footer li {
+    padding-bottom: 2rem;
+}
+
+.menu-footer li a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-newsletter input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-right: 1.2rem;
+    padding-right: 10px;
+    width: 200px;
+}
+
+.form-newsletter input[type="submit"]{
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-newsletter ::placeholder{
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
