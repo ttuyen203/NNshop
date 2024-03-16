@@ -1,344 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NNShop</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <div class="logo">
-                <img src="./img/logo.png" alt="">
-                <p>Furniro</p>
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="btn-function">
-                <i class="ph-bold ph-user"></i>
-                <i class="ph-bold ph-magnifying-glass"></i>
-                <i class="ph-bold ph-heart"></i>
-                <i class="ph-bold ph-shopping-cart-simple"></i>
-            </div>
-        </header>
+      <header class="header">
+        <div class="logo">
+          <img src="./img/logo.png" alt="" />
+          <p>Furniro</p>
+        </div>
+        <i class="ai-text-align-justified btn-mobile"></i>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="btn-function">
+          <a href="login.html"><i class="ai-person"></i></a>
+          <a href=""><i class="ai-search"></i></a>
+          <a href=""><i class="ai-heart"></i></a>
+          <a href="cart.html"><i class="ai-cart"></i></a>
+        </div>
+      </header>
 
-        <!-- Banner -->
-        <div class="banner">
-            <img src="./img/banner.png" alt="">
-        </div>
-        <div class="title-banner">
-            <p>Trang chủ</p>
-        </div>
+      <!-- Banner -->
+      <div class="banner">
+        <img src="./img/banner.png" alt="" />
         <div class="text-banner">
+          <div class="title-banner">
+            <p>Trang chủ</p>
+          </div>
+          <div class="english-banner">
             <p>Home</p>
+          </div>
         </div>
+      </div>
 
-        <!-- New -->
-        <section class="section">
-            <div class="section-title">New</div>
-            <div class="section-content border-bottom">
-                <div class="list-product">
-                    <div class="product">
-                        <div class="img-product">
-                            <img src="./img/sp1.png" alt="">
-                        </div>
-                        <div class="info-product">
-                            <div class="name-product">
-                                <p>Syltherine</p>
-                            </div>
-                            <div class="description-product">
-                                <p>Stylish cafe chair</p>
-                            </div>
-                            <div class="price-product">
-                                <p class="price">2.500.000đ</p>
-                                <p class="price-product-old">3.500.000đ</p>
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <button class="btn-add-to-cart">Add to Cart</button>
-                                    <div class="additional-options">
-                                        <li><i class="ph ph-share-network"></i><a href="#">Share</a></li>
-                                        <li><i class="ph ph-arrows-left-right"></i><a href="#">Compare</a></li>
-                                        <li><i class="ph ph-heart"></i><a href="#">Like</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tag">
-                                <p class="tag-text">-30%</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="product">
-                        <div class="img-product">
-                            <img src="./img/sp2.png" alt="">
-                        </div>
-                        <div class="info-product">
-                            <div class="name-product">
-                                <p>Leviosa</p>
-                            </div>
-                            <div class="description-product">
-                                <p>Stylish cafe chair</p>
-                            </div>
-                            <div class="price-product">
-                                <p class="price">2.500.000đ</p>
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <button class="btn-add-to-cart">Add to Cart</button>
-                                    <div class="additional-options">
-                                        <li><i class="ph ph-share-network"></i><a href="#">Share</a></li>
-                                        <li><i class="ph ph-arrows-left-right"></i><a href="#">Compare</a></li>
-                                        <li><i class="ph ph-heart"></i><a href="#">Like</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="product">
-                        <div class="img-product">
-                            <img src="./img/sp3.png" alt="">
-                        </div>
-                        <div class="info-product">
-                            <div class="name-product">
-                                <p>Lolito</p>
-                            </div>
-                            <div class="description-product">
-                                <p>Luxury big sofa</p>
-                            </div>
-                            <div class="price-product">
-                                <p class="price">7.000.000đ</p>
-                                <p class="price-product-old">14.000.000đ</p>
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <button class="btn-add-to-cart">Add to Cart</button>
-                                    <div class="additional-options">
-                                        <li><i class="ph ph-share-network"></i><a href="#">Share</a></li>
-                                        <li><i class="ph ph-arrows-left-right"></i><a href="#">Compare</a></li>
-                                        <li><i class="ph ph-heart"></i><a href="#">Like</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tag">
-                                <p class="tag-text">-50%</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="product">
-                        <div class="img-product">
-                            <img src="./img/sp4.png" alt="">
-                        </div>
-                        <div class="info-product">
-                            <div class="name-product">
-                                <p>Respira</p>
-                            </div>
-                            <div class="description-product">
-                                <p>Outdoor bar table and stool</p>
-                            </div>
-                            <div class="price-product">
-                                <p class="price">5.000.000đ</p>
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <button class="btn-add-to-cart">Add to Cart</button>
-                                    <div class="additional-options">
-                                        <li><i class="ph ph-share-network"></i><a href="#">Share</a></li>
-                                        <li><i class="ph ph-arrows-left-right"></i><a href="#">Compare</a></li>
-                                        <li><i class="ph ph-heart"></i><a href="#">Like</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tag bg-green">
-                            <p class="tag-text">New</p>
-                        </div>
-                    </div>
+      <!-- New -->
+      <section class="section">
+        <div class="section-title">New</div>
+        <div class="section-content border-bottom">
+          <div class="list-product">
+            <div class="product">
+              <div class="img-product">
+                <img src="./img/sp1.png" alt="" />
+              </div>
+              <div class="info-product">
+                <div class="name-product">
+                  <p>Syltherine</p>
                 </div>
+                <div class="description-product">
+                  <p>Stylish cafe chair</p>
+                </div>
+                <div class="price-product">
+                  <div class="price-space">
+                    <p class="price">2.500.000đ</p>
+                    <p class="price-product-old">3.500.000đ</p>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <button class="btn-add-to-cart">Add to Cart</button>
+                    <div class="additional-options">
+                      <li><i class="ai-network"></i><a href="#">Share</a></li>
+                      <li>
+                        <i class="ai-arrow-right-left"></i
+                        ><a href="#">Compare</a>
+                      </li>
+                      <li><i class="ai-heart"></i><a href="#">Like</a></li>
+                    </div>
+                  </div>
+                </div>
+                <div class="tag">
+                  <p class="tag-text">-30%</p>
+                </div>
+              </div>
             </div>
-        </section>
 
-        <!-- Shop -->
-        <section class="section pt-4">
-            <div class="section-title">Shop</div>
-            <div class="section-content">
-                <div class="list-shop">
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="./img/shop1.png" alt="">
-                        </div>
-                        <div class="col-2">
-                            <img src="./img/shop2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="./img/shop3.png" alt="">
-                        </div>
-                        <div class="col-2">
-                            <img src="./img/shop4.png" alt="">
-                        </div>
-                    </div>
+            <div class="product">
+              <div class="img-product">
+                <img src="./img/sp2.png" alt="" />
+              </div>
+              <div class="info-product">
+                <div class="name-product">
+                  <p>Leviosa</p>
                 </div>
+                <div class="description-product">
+                  <p>Stylish cafe chair</p>
+                </div>
+                <div class="price-product">
+                  <p class="price">2.500.000đ</p>
+                </div>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <button class="btn-add-to-cart">Add to Cart</button>
+                    <div class="additional-options">
+                      <li><i class="ai-network"></i><a href="#">Share</a></li>
+                      <li>
+                        <i class="ai-arrow-right-left"></i
+                        ><a href="#">Compare</a>
+                      </li>
+                      <li><i class="ai-heart"></i><a href="#">Like</a></li>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
 
-        <!-- Blog -->
-        <section class="section pt-4">
-            <div class="section-title">Blog</div>
-            <div class="section-content">
-                <div class="list-blog">
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="./img/blog1.png" alt="">
-                        </div>
-                        <div class="col-2 border-bottom">
-                            <div class="blog-content">
-                                <div class="blog-title">
-                                    THE ULTIMATE SOFA BUYING GUIDE
-                                </div>
-                                <div class="blog-text">
-                                    The versatility of our living space is more crucial than ever. But
-                                    buying a sofa might be a difficult undertaking. Your needs and the
-                                    size of your living area will determine everything, However, don’t
-                                    worry, were are here to help you
-                                </div>
-                                <div class="btn-about mb-1">
-                                    ABOUT <i class="ph ph-arrow-right"></i>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="./img/blog2.png" alt="">
-                        </div>
-                        <div class="col-2 border-bottom">
-                            <div class="blog-content">
-                                <div class="blog-title">
-                                    A BEDROOM MUST HAVE SOME THING LIKE THIS
-                                </div>
-                                <div class="blog-text">
-                                    Your level of comfort when geting into and out of bed can be greatly influenced by
-                                    the bed frame you choose. It may significantly affect how want your bedroom to feet
-                                    and look
-                                </div>
-                                <div class="btn-about mt-1">
-                                    ABOUT <i class="ph ph-arrow-right"></i>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="./img/blog3.png" alt="">
-                        </div>
-                        <div class="col-2 border-bottom">
-                            <div class="blog-content">
-                                <div class="blog-title">
-                                    WHY IS A TV CONSOLE A MUST IN EVERY HOUSE
-                                </div>
-                                <div class="blog-text">
-                                    People do a lot of research to make sure they purchase the ideal
-                                    televisoin. And like the rest of us, you want to keep that gorgeous flat srceen in
-                                    your living or bedroom on a table or stand
-                                </div>
-                                <div class="btn-about mt-1">
-                                    ABOUT <i class="ph ph-arrow-right"></i>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+            <div class="product">
+              <div class="img-product">
+                <img src="./img/sp3.png" alt="" />
+              </div>
+              <div class="info-product">
+                <div class="name-product">
+                  <p>Lolito</p>
                 </div>
+                <div class="description-product">
+                  <p>Luxury big sofa</p>
+                </div>
+                <div class="price-product">
+                  <div class="price-space">
+                    <p class="price">7.000.000đ</p>
+                    <p class="price-product-old">14.000.000đ</p>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <button class="btn-add-to-cart">Add to Cart</button>
+                    <div class="additional-options">
+                      <li><i class="ai-network"></i><a href="#">Share</a></li>
+                      <li>
+                        <i class="ai-arrow-right-left"></i
+                        ><a href="#">Compare</a>
+                      </li>
+                      <li><i class="ai-heart"></i><a href="#">Like</a></li>
+                    </div>
+                  </div>
+                </div>
+                <div class="tag">
+                  <p class="tag-text">-50%</p>
+                </div>
+              </div>
             </div>
-        </section>
-        <section class="tagline">
-            <div class="list-feature">
-                <div class="feature">
-                    <i class="ph ph-trophy"></i>
-                    <div class="feature-text">
-                        <div class="feature-title">High Quality</div>
-                        <div class="feature-desc">crafted from top materials</div>
-                    </div>
-                </div>
-                <div class="feature">
-                    <i class="ph ph-seal-check"></i>
-                    <div class="feature-text">
-                        <div class="feature-title">Warranty Protection</div>
-                        <div class="feature-desc">Over 2 years</div>
-                    </div>
-                </div>
-                <div class="feature">
-                    <i class="ph ph-truck"></i>
-                    <div class="feature-text">
-                        <div class="feature-title">Free Shipping</div>
-                        <div class="feature-desc">Order over 150 $</div>
-                    </div>
-                </div>
-                <div class="feature">
-                    <i class="ph ph-headset"></i>
-                    <div class="feature-text">
-                        <div class="feature-title">24 / 7 Support</div>
-                        <div class="feature-desc">Dedicated support</div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <footer class="section">
-            <div class="footer-content">
-                <div class="logo-address">
-                    <div class="logo-footer">Funiro.</div>
-                    <div class="address">
-                        <p>400 University Drive Suite 200 Coral Gables,</p>
-                        <p>FL 33134 USA</p>
+            <div class="product">
+              <div class="img-product">
+                <img src="./img/sp4.png" alt="" />
+              </div>
+              <div class="info-product">
+                <div class="name-product">
+                  <p>Respira</p>
+                </div>
+                <div class="description-product">
+                  <p>Outdoor bar table and stool</p>
+                </div>
+                <div class="price-product">
+                  <p class="price">5.000.000đ</p>
+                </div>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <button class="btn-add-to-cart">Add to Cart</button>
+                    <div class="additional-options">
+                      <li><i class="ai-network"></i><a href="#">Share</a></li>
+                      <li>
+                        <i class="ai-arrow-right-left"></i
+                        ><a href="#">Compare</a>
+                      </li>
+                      <li><i class="ai-heart"></i><a href="#">Like</a></li>
                     </div>
+                  </div>
                 </div>
-                <div class="links">
-                    <div class="title-footer">Links</div>
-                    <ul class="menu-footer"> 
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="help">
-                    <div class="title-footer">Help</div>
-                    <ul class="menu-footer">
-                        <li><a href="#">Payment Options</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Privacy Policies</a></li>
-                    </ul>
-                </div>
-                <div class="newsletter">
-                    <div class="title-footer">Newsletter</div>
-                    <form action="" class="form-newsletter">
-                        <input type="text" placeholder="Enter Your Email Address">
-                        <input type="submit" value="SUBSCRIBE">
-                    </form>
-                </div>
+              </div>
+              <div class="tag bg-green">
+                <p class="tag-text">New</p>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shop -->
+      <section class="section pt-4">
+        <div class="section-title">Shop</div>
+        <div class="section-content">
+          <div class="list-shop">
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/shop1.png" alt="" class="img-shop" />
+              </div>
+              <div class="col-2">
+                <img src="./img/shop2.png" alt="" class="img-shop" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/shop3.png" alt="" class="img-shop" />
+              </div>
+              <div class="col-2">
+                <img src="./img/shop4.png" alt="" class="img-shop" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section class="section pt-4">
+        <div class="section-title">Blog</div>
+        <div class="section-content">
+          <div class="list-blog">
+            <div class="row">
+              <div class="">
+                <img src="./img/blog1.png" alt="" class="img-blog" />
+              </div>
+              <div class="border-bottom">
+                <div class="blog-content">
+                  <div class="blog-title">THE ULTIMATE SOFA BUYING GUIDE</div>
+                  <div class="blog-text">
+                    The versatility of our living space is more crucial than
+                    ever. But buying a sofa might be a difficult undertaking.
+                    Your needs and the size of your living area will determine
+                    everything, However, don’t worry, were are here to help you
+                  </div>
+                  <div class="btn-about">
+                    ABOUT <i class="ai-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/blog2.png" alt="" class="img-blog" />
+              </div>
+              <div class="col-2 border-bottom">
+                <div class="blog-content">
+                  <div class="blog-title">
+                    A BEDROOM MUST HAVE SOME THING LIKE THIS
+                  </div>
+                  <div class="blog-text">
+                    Your level of comfort when geting into and out of bed can be
+                    greatly influenced by the bed frame you choose. It may
+                    significantly affect how want your bedroom to feet and look
+                  </div>
+                  <div class="btn-about">
+                    ABOUT <i class="ai-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="./img/blog3.png" alt="" class="img-blog" />
+              </div>
+              <div class="col-2 border-bottom">
+                <div class="blog-content">
+                  <div class="blog-title">
+                    WHY IS A TV CONSOLE A MUST IN EVERY HOUSE
+                  </div>
+                  <div class="blog-text">
+                    People do a lot of research to make sure they purchase the
+                    ideal televisoin. And like the rest of us, you want to keep
+                    that gorgeous flat srceen in your living or bedroom on a
+                    table or stand
+                  </div>
+                  <div class="btn-about">
+                    ABOUT <i class="ai-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tagline -->
+      <section class="tagline">
+        <div class="list-feature">
+          <div class="feature">
+            <img src="./img/Group.svg" alt="" />
+            <div class="feature-text">
+              <div class="feature-title">High Quality</div>
+              <div class="feature-desc">crafted from top materials</div>
+            </div>
+          </div>
+          <div class="feature">
+            <img src="./img/guarantee.svg" alt="" />
+            <div class="feature-text">
+              <div class="feature-title">Warranty Protection</div>
+              <div class="feature-desc">Over 2 years</div>
+            </div>
+          </div>
+          <div class="feature">
+            <img src="./img/shipping.svg" alt="" />
+            <div class="feature-text">
+              <div class="feature-title">Free Shipping</div>
+              <div class="feature-desc">Order over 150 $</div>
+            </div>
+          </div>
+          <div class="feature">
+            <img src="./img/customer-support.svg" alt="" />
+            <div class="feature-text">
+              <div class="feature-title">24 / 7 Support</div>
+              <div class="feature-desc">Dedicated support</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="section">
+        <div class="footer-content">
+          <div class="logo-address">
+            <div class="logo-footer">Funiro.</div>
+            <div class="address">
+              <p>400 University Drive Suite 200 Coral Gables,</p>
+              <p>FL 33134 USA</p>
+            </div>
+          </div>
+          <div class="links">
+            <div class="title-footer">Links</div>
+            <ul class="menu-footer">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="help">
+            <div class="title-footer">Help</div>
+            <ul class="menu-footer">
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Privacy Policies</a></li>
+            </ul>
+          </div>
+          <div class="newsletter">
+            <div class="title-footer">Newsletter</div>
+            <form action="" class="form-newsletter">
+              <input type="text" placeholder="Enter Your Email Address" />
+              <input type="submit" value="SUBSCRIBE" />
+            </form>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
