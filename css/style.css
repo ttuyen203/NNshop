@@ -9,6 +9,11 @@
   list-style: none;
 }
 
+.tag-a {
+  color: black; 
+  text-decoration: none;
+}
+
 .mt-1 {
   margin-top: 1rem;
 }
